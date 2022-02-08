@@ -1,0 +1,9 @@
+jsp --> controller -->action /method -->	
+				validate required 
+				error 
+				
+			1) hibernate validator 
+			2) SPRING form 
+				2.1 ) validation 
+				2.2)  data prefill 
+			
