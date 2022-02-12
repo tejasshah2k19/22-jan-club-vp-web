@@ -6,4 +6,44 @@ jsp --> controller -->action /method -->
 			2) SPRING form 
 				2.1 ) validation 
 				2.2)  data prefill 
+--------------------------------------------
+
+Voter.jsp -? name gender age 
+VoterBean [ name gender age ] 
+
+dao -> folder -> in com folder 
+
+@Repository 
+create one class VoterDao 
+		ArrayList<VoterBean> voters  = new ArrayList<>();
+
+
+VoterController --> 
+		saveVoter 
+				voterDao.voters.add(voterBean); 
+
+
+		getallvoters 
+			model.addAttribute("voters",voterDao.voters)
 			
+			jsp --> print 
+
+---------------------------------------------
+user -> candidate ->  
+		citizen -> vote -> 
+		
+		
+		ram
+		superman 
+		
+		sita
+		gabbar
+		babbar 
+		
+		
+		winner 
+		
+		
+		signup , login , vote , votestatus 
+
+-------------------------------------------
